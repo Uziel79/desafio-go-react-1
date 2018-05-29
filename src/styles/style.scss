@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  background: #e9ebee;
+  font-family: "Open-sans", sans-serif;
+}
+
+header {
+  background: #4267b2;
+  border-bottom: 1px solid #29487d;
+  text-align: center;
+  padding: 15px 0;
+
+  h4 {
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+  }
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+
+  .post {
+    margin: 30px 0;
+    background: #fff;
+    padding: 30px;
+    border: 1px solid #ccc;
+
+    .postHeader {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 15px;
+
+      .image {
+        img {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+        }
+      }
+
+      .infoUserHour {
+        padding-left: 30px;
+
+        h5 {
+          font-size: 16px;
+          color: #666;
+          margin: 4px 0;
+        }
+
+        p {
+          margin: 0;
+
+          small {
+            font-size: 14px;
+            color: #999;
+          }
+        }
+      }
+    }
+
+    .postText {
+      padding-top: 15px;
+      p {
+        margin: 0;
+        font-size: 16px;
+        color: #333;
+      }
+    }
+  }
+}
